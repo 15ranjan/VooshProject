@@ -1,15 +1,30 @@
-Requirements - 
 
-For new user: url/add-user (POST request) 
-We will store the name, phone number, and a new password (hased password) 
+# User Management Service
 
-For Login user: url/login-user (POST request) 
-phone number, password 
+Node.js Api which register new user, we can add new orders, and get order details of that user. 
+All the routes will protected, we can use jwt for adding Auth. Used mongoDB Atlas to store the data. 
 
-For adding new order: url/add-order (POST request) 
-We will need the user_id, sub_total, phone_number to add any order 
 
-Get order detail: url/get-order (GET request) 
-In query we will pass the user_id to get user order details 
+
+## Requirements
+
+- mongodb Atlas.
+- node.js
+- HTML
+- Postman
+
+## Usage of middlewares
+ - connect mongo
+ - express dependncies
+ - JWT tokens
+ - Bearer token Authorization
+ 
+ 
+## Running
+- NPM install
+- NPM start
+- Open localhost
+- Use Postman to test the API
+
 
 
