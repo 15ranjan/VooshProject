@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management System</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Welcome to User Management System</h1>
+  </header>
+
+  <!-- Login Form -->
+  <section id="login">
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+      <label for="loginPhone">Phone Number:</label>
+      <input type="text" id="loginPhone" name="loginPhone" required>
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="loginPassword" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- Signup Form -->
+  <section id="signup">
+    <h2>Signup</h2>
+    <form action="/signup" method="POST">
+      <label for="signupName">Name:</label>
+      <input type="text" id="signupName" name="signupName" required>
+      <label for="signupPhone">Phone Number:</label>
+      <input type="text" id="signupPhone" name="signupPhone" required>
+      <label for="signupPassword">Password:</label>
+      <input type="password" id="signupPassword" name="signupPassword" required>
+      <button type="submit">Signup</button>
+    </form>
+  </section>
+
+  <!-- User Registration Form -->
+  <section id="registration">
+    <h2>User Registration</h2>
+    <form action="/register" method="POST">
+      <label for="regName">Name:</label>
+      <input type="text" id="regName" name="regName" required>
+      <label for="regPhone">Phone Number:</label>
+      <input type="text" id="regPhone" name="regPhone" required>
+      <label for="regPassword">Password:</label>
+      <input type="password" id="regPassword" name="regPassword" required>
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Order Details Page -->
+  <section id="orderDetails">
+    <h2>Order Details</h2>
+    <!-- Display order details here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 User Management System</p>
+  </footer>
+</body>
+</html>
